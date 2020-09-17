@@ -23,7 +23,7 @@
                 "lambda:*"
             ],
             "Resource": [
-                "arn:aws:lambda:us-west-1:807230335956:function:*"
+                "arn:aws:lambda:us-west-1:643132433062:function:*"
             ],
             "Effect": "Allow"
         },
@@ -46,7 +46,7 @@
                 "logs:*"
             ],
             "Resource": [
-                "arn:aws:iam::807230335956:role/*"
+                "arn:aws:iam::643132433062:role/*"
             ],
             "Effect": "Allow"
         },
@@ -57,7 +57,7 @@
                 "iam:DetachRolePolicy"
             ],
             "Resource": [
-                "arn:aws:iam::807230335956:role/*"
+                "arn:aws:iam::643132433062:role/*"
             ],
             "Effect": "Allow"
         },
@@ -86,7 +86,7 @@
                 "codedeploy:RegisterApplicationRevision"
             ],
             "Resource": [
-                "arn:aws:codedeploy:us-west-1:807230335956:application:*"
+                "arn:aws:codedeploy:us-west-1:643132433062:application:*"
             ],
             "Effect": "Allow"
         },
@@ -97,7 +97,7 @@
                 "codedeploy:GetDeployment"
             ],
             "Resource": [
-                "arn:aws:codedeploy:us-west-1:807230335956:deploymentgroup:*"
+                "arn:aws:codedeploy:us-west-1:643132433062:deploymentgroup:*"
             ],
             "Effect": "Allow"
         },
@@ -106,7 +106,7 @@
                 "codedeploy:GetDeploymentConfig"
             ],
             "Resource": [
-                "arn:aws:codedeploy:us-west-1:807230335956:deploymentconfig:*"
+                "arn:aws:codedeploy:us-west-1:643132433062:deploymentconfig:*"
             ],
             "Effect": "Allow"
         }
